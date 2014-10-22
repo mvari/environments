@@ -12,4 +12,4 @@ mod "mysql",
   :git => 'https://github.com/example42/puppet-mysql.git',
   :ref => 'v2.1.1'
 mod "monitoring",
-  :gir => 'https://github.com/mvari/monitoring.git'
+  :git => 'https://github.com/mvari/monitoring.git'
