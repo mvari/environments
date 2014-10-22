@@ -1,0 +1,3 @@
+---
+message: 'You are in the development application tier'
+java_version: '1.7.0_60'
