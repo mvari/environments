@@ -13,3 +13,7 @@ mod "mysql",
   :ref => 'v2.1.1'
 mod "monitoring",
   :git => 'https://github.com/mvari/monitoring.git'
+
+mod "puppi",
+  :git => 'https://github.com/example42/puppi.git'
+  :ref => 'v2.1.9'
