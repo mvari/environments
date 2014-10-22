@@ -2,7 +2,7 @@ mod "activemq",
   :git => 'https://github.com/example42/puppet-activemq.git',
   :ref => 'v2.0.10'
 
-mod "zabbix-server",
+mod "zabbix",
    :git => 'https://github.com/illuminatis/puppet-zabbix.git'
 
 mod "apache",
