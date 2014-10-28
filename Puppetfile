@@ -1,5 +1,5 @@
-forge "https://forge.puppetlabs.com"
-mod 'wdijkerman-zabbix',"0.5.0"
+mod "zabbix",
+   :git => 'https://github.com/illuminatis/puppet-zabbix.git'
 
 mod "activemq",
   :git => 'https://github.com/example42/puppet-activemq.git',
