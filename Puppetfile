@@ -17,3 +17,15 @@ mod "monitoring",
 mod "puppi",
   :git => 'https://github.com/example42/puppi.git',
   :ref => 'v2.1.9'
+
+mod "logstash",
+  :git => 'https://github.com/elasticsearch/puppet-logstash.git',
+  :ref => '0.5.1'
+  
+mod "stdlib",
+  :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git',
+  :ref => '4.2.0'
+
+mod "file_concat",
+  :git => 'https://github.com/electrical/puppet-lib-file_concat.git',
+  :ref => '0.1.0'
