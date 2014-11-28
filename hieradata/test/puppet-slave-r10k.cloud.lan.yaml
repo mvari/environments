@@ -1,0 +1,9 @@
+classes:
+  - logstash
+logstash::install_contrib: true
+logstash::init_template: 'monitoring/logstash/logstash.init.erb'
+resources:
+  logstash::configfile:
+    'input_tomcat':
+      source: 'puppet:///modules/monitoring/logstash/input_tomcat.conf'
+      order: 15  
