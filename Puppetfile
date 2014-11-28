@@ -29,3 +29,7 @@ mod "stdlib",
 mod "file_concat",
   :git => 'https://github.com/electrical/puppet-lib-file_concat.git',
   :ref => '0.1.0'
+  
+mod "puppet",
+  :git => 'https://github.com/example42/puppet-puppet.git',
+  :ref => 'v2.0.20'
