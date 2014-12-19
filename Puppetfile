@@ -17,3 +17,7 @@ mod "monitoring",
 mod "puppi",
   :git => 'https://github.com/example42/puppi.git',
   :ref => 'v2.1.9'
+mod "nagios",
+  :git => 'https://github.com/example42/puppet-nagios.git',
+  :ref => 'v2.0.13'
+  
