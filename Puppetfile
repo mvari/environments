@@ -20,4 +20,6 @@ mod "puppi",
 mod "nagios",
   :git => 'https://github.com/example42/puppet-nagios.git',
   :ref => 'v2.0.13'
-  
+mod "nrpe",
+  :git => 'https://github.com/example42/puppet-nrpe.git',
+  :ref => 'v2.0.12'
